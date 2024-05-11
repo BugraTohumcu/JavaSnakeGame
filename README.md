@@ -6,6 +6,7 @@ This is a simple Snake game implemented in Java using Swing. The game allows pla
 
 - [Features](#features)
 - [How to Play](#how-to-play)
+- [Contributing](#contributing)
 
 ## Features
 
