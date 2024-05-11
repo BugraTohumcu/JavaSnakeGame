@@ -2,6 +2,11 @@
 
 This is a simple Snake game implemented in Java using Swing. The game allows players to control a snake to eat fruits and grow longer without colliding with the walls or itself.
 
+## Table of Contents
+
+- [Features](#features)
+- [How to Play](#how-to-play)
+
 ## Features
 
 - Classic Snake gameplay.
