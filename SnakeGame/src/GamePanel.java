@@ -83,16 +83,15 @@ public class GamePanel extends JPanel {
 
     }
 
-   // Assuming this is within your GamePanel class
-
+  
    public void gameRestart() {
-    // Reset other game state variables
+    // Reset game variables
     snakeXStartingPoint = BOARD_WIDTH / 2 - (10 * UNIT_SIZE);
     snakeYStartingPoint = BOARD_HEIGHT / 2 - UNIT_SIZE;
     tailCounter = 1;
     fruitEaten = 0;
-    direction = RIGHT; // Reset direction to default
-    lastDirection = LEFT; // Reset last direction to default
+    direction = RIGHT; 
+    lastDirection = LEFT;
     gameEnd = false;
     generateFruit();
 
