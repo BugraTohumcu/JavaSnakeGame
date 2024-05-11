@@ -145,9 +145,9 @@ public class GamePanel extends JPanel {
     }
 
     public void checkCollision(){
-         gameEnd =  (snakeXStartingPoint >= BOARD_WIDTH - UNIT_SIZE) ||
+         gameEnd =  (snakeXStartingPoint >= BOARD_WIDTH) ||
          (snakeXStartingPoint < UNIT_SIZE) ||
-         (snakeYStartingPoint >= BOARD_HEIGHT - UNIT_SIZE) ||
+         (snakeYStartingPoint >= BOARD_HEIGHT) ||
          (snakeYStartingPoint < UNIT_SIZE);
 
 
