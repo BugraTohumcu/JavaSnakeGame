@@ -17,7 +17,7 @@ This is a simple Snake game implemented in Java using Swing. The game allows pla
 
 ## How to Play
 
-- Use the arrow keys (UP, DOWN, LEFT, RIGHT) to control the direction of the snake.
+- Use W,S,A,D (UP, DOWN, LEFT, RIGHT) to control the direction of the snake.
 - Guide the snake to eat fruits without colliding with the walls or itself.
 - Each fruit eaten increases the length of the snake and the player's score.
 - The game ends if the snake collides with the walls or itself.
